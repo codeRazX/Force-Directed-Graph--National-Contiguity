@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(circle, #444, #111);
+}
+
+#tooltip{
+    width: min-content;
+    height: auto;
+    position: absolute; 
+    background: whitesmoke; 
+    padding: 10px; 
+    box-shadow: 0 0 5px black;
+    border: 1px solid black;
+    display: none;
+}
